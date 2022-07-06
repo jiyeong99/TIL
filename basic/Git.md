@@ -137,8 +137,10 @@ nothing added to commit vut untracked files present (use "git add to track")
 
 10. `git remote add origin (url)`깃아 원격저장소에 연결해줘 origin으로 (원격저장소 url)에  
 
-    1. 여기서 origin은 remote repository의 별칭입니다. url을 쓰긴 귀찮으니까요.  
-
+    1. 여기서 origin은 remote repository의 별칭입니다. url을 쓰긴 귀찮으니까요. 
+    2. 연결된 저장소 정보 조회 `git remote show 'origin'`   
+    2. 으악 잘못 연결했다! 혹은 연결된 repository를 바꾸고싶으면 삭제했다 다시 연결합시다.`git remote remove origin`  
+    
 11. `git push origin master`  
 
     - `push`전에 add, push 깜빡하는 경우가 많아요. 반드시 확인합시다.  
