@@ -77,6 +77,7 @@
       - bash: syntax error near unexpected token ')'  
       - 대체방법으로 `git add "filename"`을 사용했습니다. stackoverflow에서 비슷한 사례를 찾아보니  ")"괄호가 많거나 적어서 일어난다는데 대체 괄호가 어디있다는거죠.  
         - (추가) Inflearn이라는 다른 개발자 커뮤니티에서 이유를 알아냈습니다. 컴파일러님이 괄호가 헷갈리신답니다. 참내( '^' ) [링크참조](https://www.inflearn.com/questions/37096)  
+        - 난 바보다!! 괄호 안에 파일명을 넣는게 아니었어!!!
 
 - `git commit -m '메세지를입력하세요'`  
   - staging area에 있는 파일을 커밋합니다.  
