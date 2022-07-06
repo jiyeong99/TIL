@@ -124,6 +124,8 @@ nothing added to commit vut untracked files present (use "git add to track")
    ``` bash
    git config --global user.email 'email@site'
    git config --global user.name 'username'
+   git config --global core.editor"code --wait"
+   # visual studio code를 기본 에디터로 설정
    ```
 
 6. 작업파일을 add해줍니다 `git add <filename>`    
