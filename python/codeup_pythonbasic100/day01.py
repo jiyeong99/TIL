@@ -198,3 +198,17 @@
 # c = float(a)/float(b)
 # print(format(c,".3f"))
 
+# 6044
+# a, b = input().split()
+# print(int(a)+int(b))
+# print(int(a)-int(b))
+# print(int(a)*int(b))
+# print(int(a)//int(b))
+# print(int(a)%int(b))
+# print(format(float(int(a)/int(b)),".2f"))
+
+# 6045
+# a, b, c = input().split()
+# sum = int(a) + int(b) + int(c)
+# avg = format(sum/3, ".2f")
+# print(sum,avg, sep=" ")
