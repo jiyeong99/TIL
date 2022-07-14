@@ -8,5 +8,5 @@ word = 'apple'
 
 # 3. ndex
 for i in range(len(word)):
-    print(i)  
+    print(i)
     print(word[len(word)-i-1],end='')
