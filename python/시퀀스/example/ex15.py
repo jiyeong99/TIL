@@ -4,10 +4,20 @@
 
 word = input()
 k = 0
-if 'a' in word:
-    for i in word :
-        if i == 'a':
-            print('word[%d]'%k)
-            break
-        else : k += 1 
-else : print('-1')
+# if 'a' in word:
+#     for i in word :
+#         if i == 'a':
+#             print('word[%d]'%k)
+#             break
+#         k += 1 
+# else : print('-1')
+
+for idx in range(lent(word)):
+    print(idx, word[idx])
+    if word[idx] == 'a':
+        print(idx)
+        break
+    # for문을 다 돌았다ㅡㄴㄴ ㅡㄸㅅ은
+    # 한번도 break에 안걸렸다
+    # 즉, a는 없었다.
+    else : print(-1)

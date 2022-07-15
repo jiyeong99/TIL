@@ -3,9 +3,15 @@
 
 word = input()
 k = 0
-if 'a' in word:
-    for i in word :
-        if i == 'a':
-            print(k)
-        else : k += 1 
-else : print('-1')
+# if 'a' in word:
+#     for i in word :
+#         if i == 'a':
+#             print(k,end='')
+#         k += 1 
+# else : print('-1')
+
+result = []
+for idx in range(len(word)):
+    if word[idx] == 'a':
+        result.append(idx)
+print(result)

@@ -4,10 +4,15 @@
 
 word = input()
 cnt = 0
-t = 0
 lst =['a','e','i','o','u'] 
 for i in word :
     for t in lst : 
         if i == t :
             cnt += 1
 print(cnt)
+
+# count = 0
+# for char in word :
+#     if char in 'aeiou': # ㅇㅁㅇ!!!!
+#         count += 1
+# print(count)
