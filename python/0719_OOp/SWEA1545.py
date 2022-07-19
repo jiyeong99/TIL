@@ -1,4 +1,5 @@
 number = int(input())
-while number > 0:
-    number -= 1
-    print(number, end ='') 
+test_case = 1
+for i in range(number+1):
+    print(number, end =' ')
+    number -= 1 
