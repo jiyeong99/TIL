@@ -12,7 +12,7 @@ k = 0
 #         k += 1 
 # else : print('-1')
 
-for idx in range(lent(word)):
+for idx in range(len(word)):
     print(idx, word[idx])
     if word[idx] == 'a':
         print(idx)
