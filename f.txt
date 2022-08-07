@@ -1,0 +1,23 @@
+import sys
+sys.stdin = open("input.txt")
+T = int(input())
+for test_case in range(1,T+1):
+
+    print(f'#{test_case} ',result)
+
+###################################3
+
+from pprint import pprint
+n,m = map(int,input().split())
+result = []
+for _ in range(n):
+    temp = list(map(int,input().split()))
+    result.append(temp)
+
+pprint(result)
+
+##################################
+
+def ppr(lst):
+    for i in lst:
+        print(i,end='\n')
