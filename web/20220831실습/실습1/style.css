@@ -1,0 +1,32 @@
+/* 아래에 CSS를 작성해주세요. */
+.subtitle {
+    display: block;
+    font-size: 12px;
+}
+.section_center {
+    text-align: center;
+}
+.guid_container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.card_container {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+}
+.image_size {
+    width: 400px;
+    height: 450px;
+    border-radius: 5%;
+}
+.text_func {
+    color: slategray;
+    margin-top: 10px;
+}
+.text_name {
+    color: black;
+}
+.text_disc {
+    color: slategray;
+}

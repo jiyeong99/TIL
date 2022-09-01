@@ -1,0 +1,49 @@
+/* 아래에 CSS를 작성해주세요. */
+.container {
+    display: flex;
+    flex-flow: row wrap ;
+}
+.card {
+    display: flex;
+    flex-direction : column;
+    padding : 10px;
+}
+.image_size {
+    width : 400px;
+    height: 400px;
+}
+.store_name {
+    color: lightslategray;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.product_name {
+    color: black;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.price {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.discount_percentage {
+    color: lightskyblue;
+    margin-right: 5px;
+}
+.product_price {
+    color: black;
+}
+.review {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.star_point {
+    color: black;
+    margin-right: 5px;
+}
+.review_count {
+    color: lightslategray;
+}
